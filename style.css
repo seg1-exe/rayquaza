@@ -198,6 +198,13 @@ main{
     .track{
         margin-bottom: 10px;
     }
+
+    #music-player__audio{
+        position: fixed;
+        bottom: 20px; 
+        left: 0;
+        transform: translate(calc(50vw - 50%));
+    }
 }
 
 @media (max-width: 425px){
