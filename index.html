@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="/main.js"></script>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/847debfb6c.js" crossorigin="anonymous"></script>
+    <title>Rayquazart</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="background-page">
+        <img id="background-poster" src=""></img>
+      </div>
+      <main>
+        <div id="music-player">
+          <div id="music-player__cover">
+            <img src="" alt="cover" id="music-cover"/>
+          </div>
+
+
+
+          <div id="music-player__right-part">
+
+            <div id="music-player__info">
+              <h1 id="music-player__title">Title</h2>
+              <h3 id="music-player__artist">Artist</h3>
+            </div>
+            
+            
+            <div id="music-player__audio">
+              <audio controls id="audio-player">
+                <source id="audio-source" src="" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+
+          </div>
+        </div>
+
+        <div id="music-player__links">
+          <h2>RETROUVEZ CET ARTISTE</h2>
+          <div id="music-player__links__list">
+            <a id="spotify-link" href="#" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+            <a id="soundcloud-link" href="#" target="_blank"><i class="fa-brands fa-soundcloud"></i></a>
+            <a id="deezer-link" href="#" target="_blank"><i class="fa-brands fa-deezer"></i></a>
+          </div>
+        </div>
+
+        <div id="tracklist">
+          <h2>DECOUVREZ LES ARTISTES</h2>
+
+          <div id="tracklist__list"></div>
+
+        </div>
+      </main>
+    </div>
+    
+  </body>
+</html>

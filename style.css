@@ -1,0 +1,132 @@
+#app{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to top,#383838, transparent);
+};
+
+@font-face {
+    font-family: "switzer";
+    src: url(/public/fonts/Switzer/Switzer-Black.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "akira";
+    src: url(/fonts/AkiraExpanded/Akira\ Expanded\ Demo.otf) format("opentype");
+}
+
+#app h1{
+    font-size: 3rem;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-family: 'akira', sans-serif;
+}
+
+#app h2{
+    font-size: 2rem;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-family: 'akira', sans-serif;
+}
+
+#app h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'switzer', sans-serif;
+}
+
+#background-page{
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    mask-image: linear-gradient(180deg, black 50%, transparent 100%);
+}
+
+#background-poster{
+    width: 102%;
+    z-index: -1;
+    top: -1%;
+    left: -1%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+#background-page #background-poster{
+    filter: blur(5px) brightness(38%);
+}
+
+
+main{
+    width: 80%;
+    padding: 10% 0 10% 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+#music-player{
+    display: flex;
+}
+
+#music-player__cover{
+    margin-right: 50px;
+}
+
+#music-player__right-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#music-player__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#music-player__links{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 100px 0;
+}
+
+#music-player__links a{
+    margin-right: 20px;
+}
+
+#music-player__links i{
+    font-size: 40px;
+    color: white;
+}
+
+#music-cover{
+    width: 360px;
+    height: 360px;
+}
+
+.track__cover{
+    height: 50px;
+    width: 50px;
+    margin: 0 25px;
+}
+
+.track{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.track__info{
+    display: flex;
+    flex-direction: column;
+}
+
+.track__info .track__title{
+    margin-bottom: 10px;
+}

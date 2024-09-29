@@ -1,0 +1,34 @@
+{
+    "songs": [
+    { 
+        "id": 1,
+        "title": "LE MONSTRE EN MOI",
+        "artist": "Nowahh",
+        "cover": "/covers/nowahh-le_monstre_en_moi.jpeg",
+        "audio": "/audios/Nowahh-Le_Monstre_En_Moi.mp3",
+        "spotify": "https://open.spotify.com/intl-fr/artist/5LQmeM9ZCu9bK676t3XrBp?si=k6g5xWKmSMejYDlaBik41w",
+        "soundcloud": "https://on.soundcloud.com/kAH61LxuRZCZ1Pfm6",
+        "deezer": "https://deezer.page.link/dGs7JUhxoK9ioWaaA"
+    },
+    { 
+        "id": 2,
+        "title": "rampe de lancement",
+        "artist": "paulvitesse!",
+        "cover": "/covers/paulvitesse-symptomes.jpeg",
+        "audio": "/audios/paulvitesse-rampe_de_lancement.mp3",
+        "spotify": "https://open.spotify.com/intl-fr/artist/0eHSGxdbaHWjtpSGX72FuV?si=omkGihCcRcKbRaGzKTUHnw",
+        "soundcloud": "https://on.soundcloud.com/4d3Dz3mC3dSo1m7f8",
+        "deezer": "https://deezer.page.link/5QWi7HeACM3Jgi238"
+    },
+    { 
+        "id": 3,
+        "title": "martha",
+        "artist": "dyspeed",
+        "cover": "/covers/dyspeed-lhistoire_de_dyspeed.jpeg",
+        "audio": "/audios/dyspeed-martha.mp3",
+        "spotify": "https://open.spotify.com/intl-fr/artist/26xcQdwRKfivzNujSAVQIk?si=ac3942fe9e1b4d46",
+        "soundcloud": "https://on.soundcloud.com/u961QvbnEuWgoJqA6",
+        "deezer": "https://deezer.page.link/E57wwqjqW8fd72Bz5"
+    }
+    ]
+}
