@@ -29,6 +29,36 @@
         "spotify": "https://open.spotify.com/intl-fr/artist/26xcQdwRKfivzNujSAVQIk?si=ac3942fe9e1b4d46",
         "soundcloud": "https://on.soundcloud.com/u961QvbnEuWgoJqA6",
         "deezer": "https://deezer.page.link/E57wwqjqW8fd72Bz5"
+    },
+    { 
+        "id": 4,
+        "title": "quand tu m'aimes",
+        "artist": "243red",
+        "cover": "/covers/243red-quand_tu_maimes.jpeg",
+        "audio": "/audios/243red-quand_tu_maimes.mp3",
+        "spotify": "https://open.spotify.com/intl-fr/artist/444XB30axlXf3fNZTgj7Qi?si=iKszPMEwSR-p7EZTMcNSXA",
+        "soundcloud": "https://on.soundcloud.com/jVCYxn7SnMcW6cYM6",
+        "deezer": "https://deezer.page.link/d5CbRymmturDpeSy8"
+    },
+    { 
+        "id": 5,
+        "title": "jtm a mort",
+        "artist": "18snor",
+        "cover": "/covers/18snor-jtm_a_mort.jpeg",
+        "audio": "/audios/18snor-jtm_a_mort.mp3",
+        "spotify": "https://open.spotify.com/intl-fr/artist/7pC3b9LwaHGL6Po17ZDn78?si=8G160onEQ76YWsmOSMLtLw",
+        "soundcloud": "https://on.soundcloud.com/6urmiVDoYnuJLseU6",
+        "deezer": "https://deezer.page.link/5q1Pc53ZRyE9WrbP7"
+    },
+    { 
+        "id": 6,
+        "title": "PARADISE OF MISERY",
+        "artist": "EngelOnline",
+        "cover": "/covers/EngelOnline-PARADISE_OF_MISERY.jpg",
+        "audio": "/audios/EngelOnline-PARADISE_OF_MISERY.mp3",
+        "spotify": "https://open.spotify.com/intl-fr/artist/3vZNGcOW3M6O3kwTwhNX2j?si=cd1D8Uv5RKGzzL-sqoC0EA",
+        "soundcloud": "https://on.soundcloud.com/5mtLWpeupHigzNJs8",
+        "deezer": "https://deezer.page.link/S1Xe9dUEu4o9wEu27"
     }
     ]
 }
