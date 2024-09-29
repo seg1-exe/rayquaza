@@ -14,7 +14,7 @@ function updateMusicPlayer(song) {
         audioPlayer.play(); 
 }
 
-fetch('/public/musicData.json') 
+fetch('./musicData.json') 
   .then(response => response.json())
   .then(data => {
     const tracklist = document.getElementById('tracklist__list');
